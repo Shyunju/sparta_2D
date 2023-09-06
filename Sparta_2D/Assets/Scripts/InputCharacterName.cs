@@ -23,10 +23,10 @@ public class InputCharacterName : MonoBehaviour
     //¸¶¿ì½º
     public void InputName()
     {
-        //if(inputFieldBox.text.Length < 2)
-        //{
-        //    return;
-        //}
+        if (inputFieldBox.text.Length < 2)
+        {
+            return;
+        }
         playerName = inputFieldBox.text;
         InputText.text = playerName;
 
